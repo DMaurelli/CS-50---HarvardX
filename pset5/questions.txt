@@ -1,0 +1,47 @@
+0.  BMP: 24-bit color.
+    GIF: 8-bit color.
+    JPEG: 24-bit color.
+    PNG: 48-bit color.
+    
+1.  GIF and PNG supports animation.
+
+2.  The lossless compression recreates a compressed an identical match to its original form, and 
+    the lossy compression can't be used to compress anything that needs to be reproduced exactly.
+    
+3.  JPEG is lossy compression.
+
+4.  The system modifies the filenames's first character in the file's directory. Then the system moves all the file's
+    FAT clusters to the hard drive's list of free clusters.
+
+5.  I purchase a sanitization tool.
+    
+6.  Declares sets of integer types having specified widths.
+
+7.  Because it's a specific way to say how much bits wide you will use.
+
+8.  BYTE is 1 byte.
+    DWORD is a 4 bytes.
+    LONG is 4 bytes.
+    word is 2 bytes.
+
+9.  The first two bytes of the BMP file format are the characters "B" then the character "M" (0x4d42)
+
+10. bfSize returns the size of a bitmap file. bisize specifies the lenght of the structure.
+
+11. If biHeight is negative, the bitmap is a top-down DIB with the origin at the upper left corner.
+
+12. The biBitCount specifies the BMP's color depth.
+
+13. If fopen return NULL is because it could't create the outfile.
+
+14. Always is 1 because it's reading one number of elements at a time.
+
+15. If the value of bi.biWidth is 3 the value of padding must be 3,
+    because (3 pixels) x (3 bytes per pixel) = 9 bytes which is not a multiple of 4. 
+    So (9 bytes) + (3 bytes of padding) = 12 bytes, which is a multiple of 4.
+
+16. fseek sets the file position of the inptr to the given padding.
+
+17. Is the current position of the file pointer.
+
+18. It was Milo Banana.

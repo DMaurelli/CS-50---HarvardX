@@ -1,0 +1,24 @@
+0.  It's a factitious disease of the lungs.
+
+1.  It return resource usage statistics for the calling process.
+
+2.  There are 16 members.
+
+3.  Because by reference it takes less resources.
+
+4.  The main function read character per character until it hit a newline or a space. The words with a length greater than
+    45 and numbers we add them to the dictionary but we don't check it for misspelings.
+
+5.  I think you use fgetc instead fscanf because with fscanf you read an entire word and you can't know if the word have a
+    number or a non-character in it, so you can't skip that word for check the spelling.
+
+6.  Because this parameters never gonna change.
+
+7.  I used hashtable and linked lists. The hashtable has a size of 500, in each node its a word and a pointer to another
+    word or null if is the end of the linked list.
+
+8.  Fast.
+
+9.  I don't do it any changes.
+
+10. I don't think so.
